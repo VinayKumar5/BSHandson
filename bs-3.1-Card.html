@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style type="text/css">
+  	.material-icons{
+  		font-size: 20px;  		
+  		vertical-align: middle;
+  	}
+
+  	.text-primary{
+
+  		font-size: 29px;
+  	}
+  	.icons-badge{
+  		font-size: 12px;  		
+  	}
+
+  	#spn{
+  		font-size: 12px;
+  	}
+
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<a class="navbar-brand" href="">hTrack</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Goals</a></li>s				
+			</ul>
+		</div>
+	</nav>	
+	<br/>
+
+
+
+<div class="container">
+
+	<div class="card" style="width: 300px;">
+			<img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="Landscape"/>
+			<div class="card-body">
+				<span style="font-weight: bold;">Coco Oil (200g)</span>
+				<span class="badge badge-success">4.4 <i class="material-icons icons-badge">star</i></span>
+				<br/>
+				<p>Rs 200.0 <span class="text-secondary" id="spn"><span style="text-decoration: line-through;">Rs250.00</span> 20%</span> <i class="material-icons icons-badge" style="font-size:20px;color: red;">new_releases</i> </p>
+				<p class="card-text">DescriptionCoconut oil, or copra oil, is an edible oil extracted from the kernel or meat of mature coconuts harvested from the coconut palm. It has various applications.</p>
+				<div class=container>
+				<a href="" class="btn btn-primary"><i class="material-icons" style="font-size: 15px;">shopping_cart</i> Add to Cart</a>
+				<i class="far fa-heart float-right" style="font-size:20px;color:grey"></i>
+				</div>
+			</div>	
+	</div>
+</div>
+</body>
+</html>
